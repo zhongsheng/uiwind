@@ -1,0 +1,6 @@
+<a class="text-white text-lg font-light px-5 py-3 rounded-sm bg-pink-500" href="#">按钮Pink</a>
+<a class="text-white font-light px-5 py-2 rounded-sm bg-blue-500" href="#">按钮Blue</a>
+<a class="text-white text-sm font-light px-4 py-2 rounded-sm  bg-red-500" href="#">按钮Red</a>
+<a class="text-white text-sm font-light px-4 py-2 rounded-sm  bg-yellow-500" href="#">按钮Yellow</a>
+<a class="text-white text-sm font-light px-4 py-2 rounded-sm  bg-green-500" href="#">按钮Green</a>
+<a class="text-xs text-white font-light px-2 py-1 rounded-sm  bg-teal-500" href="#">Teal</a>

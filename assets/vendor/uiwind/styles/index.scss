@@ -1,0 +1,62 @@
+:focus {
+    outline: none;
+}
+action-text-attachment + br {
+  display: none;
+}
+.modal-popup {
+  padding: 2px !important;
+  .swal2-content {
+    padding: 5px;
+    text-align: left;
+  }
+}
+.middle {
+    display: grid;
+    place-items: center;
+}
+.grid-1-auto-1 {
+    height: 100%; display: grid; grid-template-rows: auto 1fr auto;
+}
+.info-button {
+    @apply inline-block bg-teal-500 rounded text-xs text-lighter p-1 mt-1;
+}
+.safe-button {
+    @apply inline-block bg-green-500 rounded text-xs text-lighter p-1 mt-1;
+}
+.danger-button {
+    @apply inline-block bg-red-500 font-light rounded text-xs text-lighter p-1 mt-1;
+}
+.brand-button {
+    @apply inline-block bg-brand-500 font-light rounded text-xs text-lighter p-1 mt-1;
+}
+
+hr {
+  @apply border-t border-gray-300;
+}
+.take_out:before {
+}
+.put_in {
+  @apply text-red-700;
+}
+.put_in:before {
+  content: "+"
+}
+.quantity:before {
+    content: "x ";
+    color: #ccc;
+
+}
+.rmb:before {
+    content: "¥";
+}
+.attachment__caption {
+  display: none;
+}
+
+.card-menu-items:hover {
+    @apply bg-gray-300 text-brand-300;
+}
+.card-menu-items {
+    @apply block text-sm p-2 w-full text-center;
+}

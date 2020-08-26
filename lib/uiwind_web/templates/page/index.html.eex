@@ -1,5 +1,1 @@
-<section class="row">
-
-<%= render "test.html" %>
- 
-</section>
+<%= render_pre("_buttons.html") %>

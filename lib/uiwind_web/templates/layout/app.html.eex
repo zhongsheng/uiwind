@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title> <%= title()  %> <%= description() %> </title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+
+    <link rel="stylesheet" href="https://uiwind.s3.cn-northwest-1.amazonaws.com.cn/css/material_round.css" type="text/css" media="screen" />
     <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </head>
   <body class="bg-gray-300">
@@ -15,8 +17,60 @@
         </nav>
       </section>
     </header>
-    <main role="main" class="container m-auto p-4">
+    <main role="main" class="flex container m-auto p-4">
+        <div class="w-1/6">
+            <h2 class='flex'> <i class="m-icons-round self-center">face</i> Resources</h2>
+            <ul>
+                <li> <a href="https://tailwindcss.com/">Tailwind</a></li>
+                <li> <a href="https://sweetalert2.github.io/">Sweatalert</a></li>
+                <li> <a href="https://stimulusjs.org/">Stimulus</a></li>
+                <li>
+                    <a href="https://material.io/">Google Material</a>
+                </li>
+            </ul>
+            <h2 class='flex'>
+                <i class="m-icons-round self-center">flip_to_back</i>
+                Icons</h2>
+            <ul>
+                <li>
+                    <a href="https://material.io/resources/icons/?style=baseline">Material Icon</a>
+                </li>
+            </ul>
+
+            <h2 class='flex'>
+                <i class="m-icons-round self-center">flip_to_back</i>
+            Books & Tutorials</h2>
+            <ul>
+                <li>
+                    <a href="https://www.w3school.com.cn/css3/css3_animation.asp">CSS3</a>
+                </li>
+            </ul>
+
+            <h2 class='flex'>
+                <i class="m-icons-round self-center">flip_to_back</i>
+            Frameworks</h2>
+            <ul>
+                <li>
+                    <a href="https://bulma.io/documentation/">Bulma</a>
+                </li>
+            </ul>
+            <h2 class='flex'>
+                <i class="m-icons-round self-center">flip_to_back</i>
+            Tools</h2>
+            <ul>
+                <li>
+                    <a href="https://sachinchoolur.github.io/lightgallery.js/">lightgallery.js</a>
+                </li>
+                <li><a href="https://stimulus-components.netlify.app/">Stimulus components</a></li>
+                <li><a href="https://swiperjs.com/">Swiper - touch slider</a></li>
+            </ul>
+
+        </div>
+
+        <div class="w-5/6">
       <%= @inner_content %>
+        </div>
+
     </main>
   </body>
 </html>

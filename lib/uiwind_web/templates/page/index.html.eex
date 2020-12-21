@@ -1,3 +1,6 @@
+<h1 class='text-4xl my-5'>Cards</h1>
+<%= render_pre("_cards.html") %>
+
 <h1 class='text-4xl my-5'>Button</h1>
 <%= render_pre("_buttons.html") %>
 
@@ -8,7 +11,13 @@
 </p>
 <pre style="overflow: scroll; max-height: 200px;" class='bg-white p-2 mt-2 text-sm'>
     &lt;link rel="stylesheet" href="https://uiwind.s3.cn-northwest-1.amazonaws.com.cn/css/material_round.css" type="text/css" media="screen" /&gt;
+
+    &lt;link rel="stylesheet" href="https://cdn.drmedmk.com/static/tailwind.min.css" type="text/css" media="screen" /&gt;
+
 </pre>
+<textarea name="" id="" rows="3" cols="" class='w-full' tabindex="">
+    <script src="https://cdn.drmedmk.com/static/stimulus.umd.js"></script>
+</textarea>
 
 
 <%= render_pre("_icons.html") %>

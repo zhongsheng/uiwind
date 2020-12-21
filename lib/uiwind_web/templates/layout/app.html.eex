@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="https://uiwind.s3.cn-northwest-1.amazonaws.com.cn/css/material_round.css" type="text/css" media="screen" />
     <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+    <script src="https://cdn.drmedmk.com/static/alpine.min.js" defer></script>
   </head>
   <body class="bg-gray-300">
     <header>
